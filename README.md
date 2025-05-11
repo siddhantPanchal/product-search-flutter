@@ -31,7 +31,7 @@ Before you begin, ensure you have Flutter installed on your system. You will als
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-link>
+    git clone https://github.com/siddhantPanchal/product-search-flutter.git
     cd product_hunt
     ```
 2.  **Set up your Gemini API Key:**
