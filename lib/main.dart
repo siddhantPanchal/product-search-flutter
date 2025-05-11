@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:product_hunt/firebase_options.dart';
 import 'package:product_hunt/view/home/home_page.dart';
 
@@ -12,6 +13,8 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   ); //
+
+  await dotenv.load(fileName: ".env");
 
   Animate.restartOnHotReload = kDebugMode;
   runApp(

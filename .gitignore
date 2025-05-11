@@ -8,3 +8,6 @@ build/
 .flutter-plugins
 .flutter-plugins-dependencies
 pubspec.lock
+android/app/.cxx/
+android/**.log
+android/.kotlin/

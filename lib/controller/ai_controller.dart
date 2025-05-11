@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'dart:io';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:http/io_client.dart';
 import 'package:product_hunt/model/product.dart';
@@ -9,7 +10,7 @@ class AiController {
   static AiController? _instance;
 
   final _model = GenerativeModel(
-    apiKey: '',
+    apiKey: dotenv.env['GEMINI_API_KEY']!,
     model: 'gemini-1.5-flash-latest',
     generationConfig:
         GenerationConfig(temperature: 0, responseMimeType: 'application/json'),

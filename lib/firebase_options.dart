@@ -59,5 +59,4 @@ class DefaultFirebaseOptions {
     projectId: 'product-hunt-85f8e',
     storageBucket: 'product-hunt-85f8e.appspot.com',
   );
-
 }
