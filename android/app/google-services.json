@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "837611619040",
+    "project_id": "product-hunt-85f8e",
+    "storage_bucket": "product-hunt-85f8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837611619040:android:c9677e629e6e0bf52cc685",
+        "android_client_info": {
+          "package_name": "io.siddhant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkwia0yrvSLFeelLIhXiuSzRIrKtECEbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837611619040:android:f8de270dd967c0f42cc685",
+        "android_client_info": {
+          "package_name": "io.siddhant.product_hunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkwia0yrvSLFeelLIhXiuSzRIrKtECEbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
